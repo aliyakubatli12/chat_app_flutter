@@ -1,16 +1,21 @@
-# chatappfirebase
+# Flutter Chat App
 
-A new Flutter project.
+A simple one-to-one chat app built with Flutter during my internship at Beyond Technologies. I worked mostly on the UI.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Sign up and log in with email and password (Firebase Authentication)
+- See other users and chat with them in real time
+- Send text and image messages
+- Light and dark theme
 
-A few resources to get you started if this is your first Flutter project:
+## Tech
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter, Dart, Firebase (Authentication, Firestore, Storage)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+
+```bash
+flutter pub get
+flutter run
+```
